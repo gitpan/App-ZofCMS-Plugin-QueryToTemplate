@@ -1,0 +1,11 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/App/ZofCMS/Plugin/QueryToTemplate.pm
+t/kwalitee.t
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml
