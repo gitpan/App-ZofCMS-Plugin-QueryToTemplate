@@ -5,6 +5,7 @@ README
 lib/App/ZofCMS/Plugin/QueryToTemplate.pm
 t/kwalitee.t
 t/00-load.t
+examples/index.tmpl
 t/pod-coverage.t
 t/pod.t
 Makefile.PL

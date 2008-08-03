@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::QueryToTemplate;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 sub new { bless {}, shift; }
 
@@ -27,8 +27,8 @@ App::ZofCMS::Plugin::QueryToTemplate - ZofCMS plugin to automagically make query
 
 =head1 SYNOPSIS
 
-In your ZofCMS template, or in your main config file (under template_defaults
-or dir_defaults):
+In your ZofCMS template, or in your main config file (under C<template_defaults>
+or C<dir_defaults>):
 
     plugins => [ qw/QueryToTemplate/ ];
 
