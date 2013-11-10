@@ -1,0 +1,47 @@
+{
+   "abstract" : "ZofCMS plugin to automagically make query parameters available in the template",
+   "author" : [
+      "Zoffix Znet <zoffix@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "App-ZofCMS-Plugin-QueryToTemplate",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::ZofCMS" : "0.0103",
+            "perl" : "5.006"
+         }
+      }
+   },
+   "provides" : {
+      "App::ZofCMS::Plugin::QueryToTemplate" : {
+         "file" : "lib/App/ZofCMS/Plugin/QueryToTemplate.pm",
+         "version" : "0.0103"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.0103"
+}
